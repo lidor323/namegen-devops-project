@@ -105,3 +105,18 @@ dist
 
 # TernJS port file
 .tern-port
+# Environment variables / secrets
+.env
+.env.*
+
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# Terraform crash logs
+crash.log
+crash.*.log
+kubernetes/mongodb-secret.yaml
